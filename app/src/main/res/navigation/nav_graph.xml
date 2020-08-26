@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PopularMoviesFragment">
+
+    <fragment
+        android:id="@+id/PopularMoviesFragment"
+        android:name="com.datsenko.movieobserver.presentation.popular.PopularMoviesFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_popular_movies"/>
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.datsenko.movieobserver.presentation.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>
